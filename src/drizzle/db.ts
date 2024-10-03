@@ -10,7 +10,7 @@ export const client =new Client ({
 })
 
 const main = async ()=>{
-    await client.connect(); // connect to dfatabase
+    await client.connect(); // connect to database
 }
 main();
 
